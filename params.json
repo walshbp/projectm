@@ -1,0 +1,6 @@
+{
+  "name": "Projectm",
+  "tagline": "projectM - cross-platform music visualization",
+  "body": "## Mac OS X\r\n* [Prebuilt iTunes plugin installer](https://github.com/revmischa/projectm/releases)\r\n* [OSX Build instructions](BUILDING_OSX.txt)\r\n\r\n## Linux\r\n* `sudo apt-get install cmake-curses-gui libsdl2-dev libglew-dev libftgl-dev libsdl2-dev`\r\n\r\n## Building From Source\r\nRequires [cmake](https://cmake.org/download/).  \r\n```\r\ncmake .\r\nmake\r\nmake install\r\n```\r\n\r\n## Help\r\nReport issues on [GitHub](https://github.com/revmischa/projectm/issues/new)\r\n\r\n## Configure With cmake\r\nIf you wish to configure build options run:  \r\n`ccmake .`  \r\nThis will present you with a simple console-based interface of options for projectM.  \r\nReview the options and change what you think is necessary. Press 'g' to generate the make files and exit.  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
